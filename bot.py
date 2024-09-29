@@ -31,6 +31,7 @@ ydl_opts = {
         'preferredcodec': 'opus',
         'preferredquality': '192',
     }],
+    'outtmpl': 'downloads/%(title)s.%(ext)s',
 }
 
 # FFMPEG options for audio playback
